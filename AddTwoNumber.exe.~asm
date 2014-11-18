@@ -1,0 +1,24 @@
+.MODEL SMALL
+.STACK
+.data
+num dw 5
+num1 dw 4
+
+
+
+.CODE
+main proc
+mov ax,@DATA
+mov ds,ax
+mov ax,num
+add ax,num1
+
+
+
+main endp
+end main
+
+
+
+
+; [SOURCE]: D:\Assembly Language\AddTwoNumber.asm
